@@ -29,7 +29,7 @@ jobs:
             make build
             if [ -f ./InvoiceGenerator.exe ]; then echo "BINARY=./InvoiceGenerator.exe" >> "$GITHUB_ENV"; fi
           else
-            echo "vbnc/dotnet unavailable; skipping binary build" >> "$GITHUB_STATUS"
+            echo "vbnc/dotnet unavailable; skipping binary build"
           fi
 
       - name: Create or update release
