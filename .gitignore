@@ -1,0 +1,14 @@
+# .NET / Mono build artifacts
+InvoiceGenerator.exe
+*.exe
+*.dll
+bin/
+obj/
+invoice_*.txt
+*.user
+*.cache
+
+# Editor / OS
+.*.swp
+*~
+.DS_Store
